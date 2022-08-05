@@ -1,0 +1,344 @@
+@import url(./_reset.css);
+@import url(./_fonts.css);
+
+body {
+    background-color: #FFF; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+* {
+    box-sizing: border-box;
+}
+.grey {
+    background-color: #EFEFEF;
+}
+
+/*---------------------------header----------------------*/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.main_nav {
+    padding: 17px 0;
+    text-align: center;
+}
+.main_nav a {
+    color: #333333;
+}
+header li {
+    display: inline-block;
+    
+}
+.main_nav li {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 17%;
+    border-bottom: 1px solid #EFEFEF;
+}
+.contacts_conteiner {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    padding: 0 10px;
+}
+.beauty_logo {
+    display: flex;
+    align-items: center;
+}
+.beauty_logo_text {
+    float: left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    padding: 0 20px;
+}
+.call_back button {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 27px 13px;
+    background-color: #FFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.75s ease ;
+}
+.call_back button:hover {
+    background-color: #F13C6E;
+    color: #FFF; 
+}
+.contact_number {
+    white-space: nowrap;
+    float: right;
+    padding: 30px 40px 0;
+}
+header a, footer a {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s ease;
+}
+header a:hover, .contact_number a:hover {
+    border-bottom: 1px solid #000;
+}
+.main_nav a:hover {
+    border-bottom-color: #333;
+}
+.sec_nav {
+    padding: 30px 0;
+    text-align: center;
+}
+.sec_nav li {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*-----------------------section super------------------*/
+
+.super {
+    width: 100%;
+    background-image: url(../pictures/super_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
+.super_text {
+    width: 66%;
+    margin: 0 auto;
+    padding: 192px 0 193px;
+    color: #FFF;
+}
+.super_heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 50px;
+}
+.link_button a {
+   color: #FFF;
+   line-height: 16px;
+   letter-spacing: 0.05em;
+   border: 2px solid #FFFFFF;
+   border-radius: 30px;
+   transition: all 0.75s ease;
+}
+.super_link {
+    margin-top: 50px;
+}
+.super_link a {
+    padding: 12px 27px 13px;
+    border-radius: 40px;
+}
+.super_link a:hover {
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff; 
+}
+
+/*----------------------section offers-----------------*/
+
+.offers {
+    padding: 80px 0;
+}
+.offers_header {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 17% 38px 17%;
+}
+.offer_conteiner {
+    padding: 0 17%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.offer {
+    width: 13%;
+    min-width: 255px;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #fff;
+}
+.offer_text {
+    padding: 20px 0;
+}
+.offer_ptice {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+.offer_link a {
+    padding: 9px 40px;
+    background-color:#F13C6E;
+    border: 2px solid #F13C6E;
+}
+.offer_link a:hover {
+    color: #000;
+    border: 2px solid #000;
+}
+
+/*-------------------market------------------------*/
+
+.market_conteiner {
+    display: flex;
+    justify-content: center;
+    padding: 0 17%;
+    column-gap: 30px;
+    flex-flow: row wrap;
+}
+.sub_market {
+    width: 28%;
+    min-width: 540px;
+    padding: 35px 45px 35px 40px;
+    margin-bottom: 20px;
+    background-color: #F13C6E;
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 8%);
+    background-position-y: center;
+}
+.bonus {
+    background-image: url(../pictures/market_backgrounds/bonus_bg.png);
+}
+.our_markets {
+    background-image: url(../pictures/market_backgrounds/our_market_bg.png);
+}
+.sub_market_header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 25px;
+}
+.sub_market_text {
+    padding-bottom: 25px;
+}
+.our_markets_link a {
+    padding: 9px 28px;
+}
+.our_markets_link a:hover {
+    color: #000;
+    border-color: #000;
+}
+.email {
+    border-radius: 30px;
+    border: none;
+    padding: 9px 30px 9px 25px;
+}
+
+/*-------------------------------impuls-------------------*/
+
+.logotypes {
+    padding: 100px 17% 0 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.impuls a {
+    display: inline-block;
+    padding: 35px 60px;
+    min-width: 278px;
+    background-color: #fff;
+    border: 1px solid #EFEFEF;
+    transition: all 0.7s ease;
+}
+.impuls a:hover {
+    transform: scale(1.1);
+}
+
+/*----------------------footer links--------------------*/
+
+.footer_links_conteiner {
+    padding: 30px 17% 60px 17%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.footer_links {
+    width: 13%;
+    min-width: 255px;
+
+}
+.footer_links_header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.footer_links ul {
+    padding-top: 25px;
+}
+.footer_link a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+.footer_link a:hover {
+    border-bottom-color:#828282 ;
+}
+
+/*-------------footer contacts---------------------*/
+
+.footer_contacts {
+    padding-bottom: 40px;
+}
+.beauty_social {
+    width: 240px;
+    display: flex;
+    gap: 20px;
+}
+.beauty_social_item a {
+    background: url(../pictures/social_icons/Ellipse.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .75s ease;
+}
+.beauty_social_item a:hover {
+    transform: scale(1.2);
+}
+
+/*---------------------------footer copyrights---------------------*/
+
+.footer_copyrights_conteiner {
+    padding: 25px 17%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.footer_copyrights_conteiner p {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+.confident a {
+    color:#828282;
+    border-bottom: 1px solid transparent;
+}
+.confident a:hover {
+    border-bottom: 1px solid #828282; 
+}
