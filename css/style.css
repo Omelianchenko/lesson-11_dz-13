@@ -42,8 +42,10 @@ header li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 17%;
-    border-bottom: 1px solid #EFEFEF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1150px;
+    padding: 20px;
 }
 .contacts_conteiner {
     display: flex;
@@ -96,6 +98,7 @@ header a:hover, .contact_number a:hover {
 .sec_nav {
     padding: 30px 0;
     text-align: center;
+    border-top: 1px solid #EFEFEF;
 }
 .sec_nav li {
     padding: 0 20px;
@@ -113,9 +116,10 @@ header a:hover, .contact_number a:hover {
     background-size:cover
 }
 .super_text {
-    width: 66%;
+    width: 100%;
+    max-width: 1150px;
     margin: 0 auto;
-    padding: 192px 0 193px;
+    padding: 192px 20px 193px;
     color: #FFF;
 }
 .super_heading {
@@ -151,22 +155,25 @@ header a:hover, .contact_number a:hover {
     padding: 80px 0;
 }
 .offers_header {
+    max-width: 1150px;
     margin: 0 auto;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding: 0 17% 38px 17%;
+    padding: 0 20px 38px;
 }
 .offer_conteiner {
-    padding: 0 17%;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     gap: 30px;
 }
 .offer {
-    width: 13%;
-    min-width: 255px;
+    width: 255px;
     padding: 25px 0;
     text-align: center;
     background-color: #fff;
@@ -198,13 +205,14 @@ header a:hover, .contact_number a:hover {
 .market_conteiner {
     display: flex;
     justify-content: center;
-    padding: 0 17%;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
     column-gap: 30px;
     flex-flow: row wrap;
 }
 .sub_market {
-    width: 28%;
-    min-width: 540px;
+    width: 540px;
     padding: 35px 45px 35px 40px;
     margin-bottom: 20px;
     background-color: #F13C6E;
@@ -243,8 +251,11 @@ header a:hover, .contact_number a:hover {
 
 /*-------------------------------impuls-------------------*/
 
-.logotypes {
-    padding: 100px 17% 0 17%;
+.impuls_conteiner {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 100px 20px 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +264,7 @@ header a:hover, .contact_number a:hover {
 .impuls a {
     display: inline-block;
     padding: 35px 60px;
-    min-width: 278px;
+    min-width: 277px;
     background-color: #fff;
     border: 1px solid #EFEFEF;
     transition: all 0.7s ease;
@@ -264,16 +275,21 @@ header a:hover, .contact_number a:hover {
 
 /*----------------------footer links--------------------*/
 
+.footer_links_conteiner_outer {
+    border-bottom: 1px solid #EFEFEF;
+}
 .footer_links_conteiner {
-    padding: 30px 17% 60px 17%;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 30px 20px 60px 20px;
     display: flex;
     flex-flow: row wrap;
     gap: 30px;
-    border-bottom: 1px solid #EFEFEF;
+    
 }
 .footer_links {
-    width: 13%;
-    min-width: 255px;
+    width: 255px;
 
 }
 .footer_links_header {
@@ -324,7 +340,10 @@ header a:hover, .contact_number a:hover {
 /*---------------------------footer copyrights---------------------*/
 
 .footer_copyrights_conteiner {
-    padding: 25px 17%;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 25px 20px;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
